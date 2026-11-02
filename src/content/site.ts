@@ -16,24 +16,24 @@ function publicImagePath(value: string | undefined): OptionalText {
  */
 export const siteContent = {
   brand: {
-    name: "Coiffure Cen",
-    shortName: "Coiffure Cen",
-    tagline: "Salon de coiffure homme, enfant et barbe à Quaregnon.",
+    name: "Coiffure Test",
+    shortName: "Coiffure Test",
+    tagline: "Salon de coiffure homme, enfant et barbe à Ville Exemple.",
     logoPath: null as OptionalText,
   },
 
   business: {
     type: "Salon de coiffure homme / barber shop",
-    responsible: "Cengiz",
-    locationLabel: "Quaregnon",
+    responsible: "Jean",
+    locationLabel: "Ville Exemple",
   },
 
   contact: {
-    phone: "0479 77 12 20",
-    phoneHref: "+32479771220",
-    address: "Route de Mons 54, 7390 Quaregnon, Belgique",
-    addressLines: ["Route de Mons 54", "7390 Quaregnon", "Belgique"],
-    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Route%20de%20Mons%2054%2C%207390%20Quaregnon%2C%20Belgique",
+    phone: "0000 00 00 00",
+    phoneHref: "+32000000000",
+    address: "Rue de l’Exemple 1, 0000 Ville Exemple, Belgique",
+    addressLines: ["Rue de l’Exemple 1", "0000 Ville Exemple", "Belgique"],
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Rue%20de%20l%27Exemple%201%2C%200000%20Ville%20Exemple%2C%20Belgique",
     openingHours: [
       { day: "Lundi", hours: "Fermé" },
       { day: "Mardi", hours: "Fermé" },
@@ -68,31 +68,31 @@ export const siteContent = {
   },
 
   seo: {
-    defaultTitle: "Coiffure Cen : barber shop à Quaregnon",
-    defaultDescription: "Coiffure homme, enfant et barbe à Quaregnon. Tarifs, horaires et prise de rendez-vous.",
-    openGraphDescription: "Coiffure homme, enfant et barbe à Quaregnon.",
+    defaultTitle: "Coiffure Test : barber shop à Ville Exemple",
+    defaultDescription: "Coiffure homme, enfant et barbe à Ville Exemple. Tarifs, horaires et prise de rendez-vous.",
+    openGraphDescription: "Coiffure homme, enfant et barbe à Ville Exemple.",
   },
 
   home: {
     hero: {
       titlePrefix: "Bienvenue chez",
-      positioning: "Salon de coiffure homme et barber shop à Quaregnon.",
-      introduction: "Cengiz vous accueille pour une coupe homme, une coupe enfant ou une prestation de barbe.",
+      positioning: "Salon de coiffure homme et barber shop à Ville Exemple.",
+      introduction: "Jean vous accueille pour une coupe homme, une coupe enfant ou une prestation de barbe.",
     },
     salon: {
       eyebrow: "Le salon",
-      title: "Coiffure Cen",
-      lead: "Coiffure Cen est un salon de coiffure homme et barber shop situé Route de Mons à Quaregnon.",
+      title: "Coiffure Test",
+      lead: "Coiffure Test est un salon de coiffure homme et barber shop situé Rue de l’Exemple à Ville Exemple.",
       paragraphs: [
         "Le salon propose des coupes homme, des coupes enfant et l’entretien de la barbe.",
-        "Cengiz reçoit les clients au salon.",
+        "Jean reçoit les clients au salon.",
         "Les prestations se font sur rendez-vous, avec réservation en ligne.",
       ],
     },
     about: {
       eyebrow: "À propos",
-      title: "Cengiz",
-      lead: "Cengiz est le responsable et coiffeur de Coiffure Cen.",
+      title: "Jean",
+      lead: "Jean est le responsable et coiffeur de Coiffure Test.",
       paragraphs: [
         "La carte comprend les coupes homme et enfant, la coupe avec barbe et l’entretien de la barbe.",
         "Les tarifs sont affichés pour chaque prestation.",
@@ -102,7 +102,7 @@ export const siteContent = {
     services: {
       eyebrow: "Prestations",
       title: "Les prestations du salon",
-      introduction: "Retrouvez les principales prestations proposées chez Coiffure Cen.",
+      introduction: "Retrouvez les principales prestations proposées chez Coiffure Test.",
     },
     booking: {
       eyebrow: "Rendez-vous",
@@ -122,7 +122,7 @@ export const siteContent = {
       lead: "Le salon fonctionne principalement sur rendez-vous.",
       paragraphs: [
         "Les durées indiquées pour les prestations sont approximatives et peuvent légèrement varier selon la demande.",
-        "En cas de question ou si vous préférez prendre contact directement avec le salon, vous pouvez appeler Cengiz au numéro indiqué ci-dessous.",
+        "En cas de question ou si vous préférez prendre contact directement avec le salon, vous pouvez appeler Jean au numéro indiqué ci-dessous.",
       ],
     },
     hours: {
@@ -132,8 +132,8 @@ export const siteContent = {
     },
     contact: {
       eyebrow: "Contact",
-      title: "Retrouvez Coiffure Cen à Quaregnon",
-      introduction: "Le salon est situé Route de Mons 54 à Quaregnon.",
+      title: "Retrouvez Coiffure Test à Ville Exemple",
+      introduction: "Le salon est situé Rue de l’Exemple 1 à Ville Exemple.",
       finalEyebrow: "Rendez-vous",
       finalTitle: "Une question ou besoin d’un rendez-vous ?",
       finalText: "Consultez les disponibilités du salon et choisissez directement votre créneau.",
@@ -143,21 +143,21 @@ export const siteContent = {
   pages: {
     services: {
       metadataTitle: "Prestations et tarifs",
-      metadataDescription: "Prestations, prix et durées de Coiffure Cen à Quaregnon.",
+      metadataDescription: "Prestations, prix et durées de Coiffure Test à Ville Exemple.",
       titleLines: ["Prestations", "et tarifs"],
       introduction: "Coiffure homme, enfant et barbe. Les prix sont indiqués par prestation et les durées sont approximatives.",
-      catalogueEyebrow: "Coiffure Cen",
+      catalogueEyebrow: "Coiffure Test",
       catalogueTitle: "Tarifs",
     },
     contact: {
       metadataTitle: "Contact, adresse et horaires",
-      metadataDescription: "Adresse, téléphone et horaires de Coiffure Cen à Quaregnon.",
+      metadataDescription: "Adresse, téléphone et horaires de Coiffure Test à Ville Exemple.",
       title: "Contact",
-      introduction: "Coiffure Cen se trouve Route de Mons 54 à Quaregnon.",
+      introduction: "Coiffure Test se trouve Rue de l’Exemple 1 à Ville Exemple.",
       coordinatesTitle: "Coordonnées",
       aboutEyebrow: "À propos",
-      aboutTitle: "Cengiz",
-      aboutText: "Cengiz est le responsable et coiffeur de Coiffure Cen.",
+      aboutTitle: "Jean",
+      aboutText: "Jean est le responsable et coiffeur de Coiffure Test.",
       practicalEyebrow: "Informations pratiques",
       hoursTitle: "Horaires",
       hoursLead: "Le salon est fermé le lundi et le mardi.",
@@ -190,7 +190,7 @@ export const siteContent = {
     },
     legal: {
       metadataTitle: "Mentions légales",
-      metadataDescription: "Mentions légales de Coiffure Cen.",
+      metadataDescription: "Mentions légales de Coiffure Test.",
       titleLines: ["Mentions", "légales"],
       publisherTitle: "Éditeur du site",
       additionalTitle: "Informations complémentaires",
@@ -206,7 +206,7 @@ export const siteContent = {
   },
 
   footer: {
-    description: "Salon de coiffure homme et barber shop à Quaregnon.",
+    description: "Salon de coiffure homme et barber shop à Ville Exemple.",
     servicesLine: "Coupe homme · Coupe enfant · Barbe",
     exploreTitle: "Explorer",
     informationTitle: "Informations",
@@ -231,8 +231,8 @@ export const siteContent = {
       desktopSrc: publicImagePath(process.env.HERO_IMAGE_PATH),
       mobileSrc: publicImagePath(process.env.HERO_IMAGE_MOBILE_PATH),
       alt: process.env.HERO_IMAGE_ALT ?? "",
-      fallbackAlt: "Intérieur du salon Coiffure Cen à Quaregnon",
-      placeholderLabel: "Coiffure Cen à Quaregnon",
+      fallbackAlt: "Intérieur du salon Coiffure Test à Ville Exemple",
+      placeholderLabel: "Coiffure Test à Ville Exemple",
       width: Number(process.env.HERO_IMAGE_WIDTH) || 2400,
       height: Number(process.env.HERO_IMAGE_HEIGHT) || 1600,
       mobileWidth: Number(process.env.HERO_IMAGE_MOBILE_WIDTH) || 1080,
